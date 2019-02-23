@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hangman</title>
+    <title>Tarot Hangman</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
 </head>
 <body>
+<h1>
+The Hanged Man's Game
+</h1>
 
-    
+<div class="container">
+<div class="row">
+    <div class="col-md-2"></div>
+<div class="col-md-4">
+    <div id="answer" class="row">
+        What card am I?
+    </div>
+    <div class="row">
+        <img id="answerimg" src="assets/images/blank.jpg">
+    </div>
+</div>
 
+<div class="col-md-4">
+    <div>
+        Press any key
+    </div>
+    <div>
+        Wins
+    </div>
+    <div id="wincount">
+        0
+    </div>
+    <div>
+        Current Word
+    </div>
+    <div id="word">_</div>
+    <div>
+        Guesses Remaining
+    </div>
+    <div id="guesscount">
+        12
+    </div>
+    <div>
+        Already Guessed
+    </div>
+    <div id="guesses">
+        
+    </div>
+</div>
+</div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

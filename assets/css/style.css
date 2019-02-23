@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    line-height: 44px;
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+img {
+    height: 288px;
+    width: 165px;
+    margin-top: 11px;
+}
